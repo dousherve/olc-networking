@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C++ project",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "make"
+        },
+        {
+            "label": "Build & Run Server",
+            "type": "shell",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "command": "make",
+            "args": [
+                "run"
+            ]
+        },
+        {
+            "label": "Build & Run Client",
+            "type": "shell",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "command": "make",
+            "args": [
+                "run-client"
+            ]
+        }
+    ]
+}
