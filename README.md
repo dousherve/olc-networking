@@ -1,6 +1,6 @@
 # olc-networking
 
-This repository is a project made with files coming from the [OneLoneCoder](https://github.com/OneLoneCoder/olcPixelGameEngine/tree/master/Videos/Networking/Parts1%262)'s repo.
+This repository is a project made with files coming from [OneLoneCoder](https://github.com/OneLoneCoder/olcPixelGameEngine/tree/master/Videos/Networking/Parts1%262)'s repo.
 Its purpose is to provide a basic Makefile to build the files and edit them in a simple IDE like VS Code, and not necessarily in a full Visual Studio solution.  
 This "wrapper project" was written and tested on macOS only, but I suppose it should easily work on Linux as well.
 
