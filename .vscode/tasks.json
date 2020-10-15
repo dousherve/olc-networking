@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build C++ project",
+            "label": "Build All",
             "type": "shell",
             "group": {
                 "kind": "build",
@@ -32,6 +32,18 @@
             "command": "make",
             "args": [
                 "run-client"
+            ]
+        },
+        {
+            "label": "Clean Project",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "make",
+            "args": [
+                "clean"
             ]
         }
     ]

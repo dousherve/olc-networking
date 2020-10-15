@@ -6,7 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/bin/server",
-            "preLaunchTask": "Build C++ project",
+            "preLaunchTask": "Build All",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
